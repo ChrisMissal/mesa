@@ -1,0 +1,8 @@
+obj/
+bin/
+*.user
+*.suo
+packages/
+TestResults/
+*.bak
+_ReSharper*/
