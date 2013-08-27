@@ -1,9 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Mesa", "Mesa.fsproj", "{27BAE347-3DA1-4F15-84DF-6145DC043A64}"
-EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Mesa.Tests", "..\Mesa.Tests\Mesa.Tests.fsproj", "{F81A4182-FC8C-4F50-8995-51599BFF57E3}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Mesa", "Mesa\Mesa.fsproj", "{27BAE347-3DA1-4F15-84DF-6145DC043A64}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Mesa.Console", "Mesa.Console\Mesa.Console.fsproj", "{643BA1A4-5ECF-45AF-8C33-2C744B419599}"
 EndProject
@@ -13,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{934A83
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Mesa.Tests", "Mesa.Tests\Mesa.Tests.fsproj", "{F81A4182-FC8C-4F50-8995-51599BFF57E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,14 +24,14 @@ Global
 		{27BAE347-3DA1-4F15-84DF-6145DC043A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27BAE347-3DA1-4F15-84DF-6145DC043A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27BAE347-3DA1-4F15-84DF-6145DC043A64}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F81A4182-FC8C-4F50-8995-51599BFF57E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F81A4182-FC8C-4F50-8995-51599BFF57E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F81A4182-FC8C-4F50-8995-51599BFF57E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F81A4182-FC8C-4F50-8995-51599BFF57E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{643BA1A4-5ECF-45AF-8C33-2C744B419599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{643BA1A4-5ECF-45AF-8C33-2C744B419599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{643BA1A4-5ECF-45AF-8C33-2C744B419599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{643BA1A4-5ECF-45AF-8C33-2C744B419599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81A4182-FC8C-4F50-8995-51599BFF57E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81A4182-FC8C-4F50-8995-51599BFF57E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81A4182-FC8C-4F50-8995-51599BFF57E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81A4182-FC8C-4F50-8995-51599BFF57E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -51,7 +51,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Mesa.fsproj">
+    <ProjectReference Include="..\Mesa\Mesa.fsproj">
       <Name>Mesa</Name>
       <Project>{27bae347-3da1-4f15-84df-6145dc043a64}</Project>
       <Private>True</Private>
