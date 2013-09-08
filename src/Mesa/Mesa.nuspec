@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
+    <id>mesa</id>
     <version>$version$</version>
-    <title>$title$</title>
+    <title>mesa - csv to database table</title>
     <authors>Chris Missal</authors>
     <owners>Chris Missal</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
